@@ -1,0 +1,3 @@
+Ir até o diretório "GraphicsSamples-master\samples\build\vs2013All" ou mudar para a de 2015 a última pasta
+
+Página da Nvidia, que acredito ser a sor: http://nvidiagameworks.github.io/GraphicsSamples/BlendedAASample.htm
