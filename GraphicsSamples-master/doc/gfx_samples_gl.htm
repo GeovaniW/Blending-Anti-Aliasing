@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="csstransforms csstransforms3d csstransitions" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+	
+	<title>GameWorks OpenGL Graphics Samples Documentation</title>
+	<meta name="description" content="GameWorks OpenGL Graphics Samples Documentation" />
+	
+	<!-- CSS files -->
+    <link href="./css/application.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styleguide.css" rel="stylesheet" type="text/css" />
+	<!--<link rel="stylesheet" type="text/css" href="sdk_samples.css" />-->
+	<!-- scripts to include -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/jquery.fitvids.js"></script>
+    <script src="./js/jquery.colorbox.js"></script>
+    <script src="./js/jquery.isotope.js"></script>
+    <script src="./js/jquery.sidr.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/application.js"></script>
+    <script src="./js/prettify.js"></script>
+</head>
+
+<body style="">
+
+<!--Navbar-->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+	<div class="row">
+	  <!--<button class="navbar-toggle" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>-->
+	  <div class="logo-header col-sm-8 col-md-9">
+		<a class="navbar-brand logo" href="http://developer.nvidia.com/gameworks"><img alt="NVidia GameWorks" height="21" src="./images/developerzone_gameworks_logo.png" width="245"></a>
+	  </div>
+	  <div class="logo-header navbar-right col-sm-4 col-md-3">
+		<a class="navbar-brand logo" href="https://github.com/NVIDIAGameWorks/GraphicsSamples"><img src="./images/gameworks_at_github.png" alt="GameWorks at GitHub" height="21" width="226"/></a>
+	  </div>
+	</div>
+  </div>
+</nav>
+
+<!-- main body block -->
+<div id="content" class="container">
+
+<div class="row" id="content">
+ <div class="col-xs-12">
+    <ol class="breadcrumb"><br/><li><a href="./index.html">Home</a></li><li class="active">GameWorks OpenGL Graphics Samples Documentation</li></ol> 
+	<div class="page-header">
+		<h1>GameWorks OpenGL Graphics Samples Documentation</h1>
+	</div>
+	
+	
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="BindlessGraphicsSample.htm">
+		Bindless Graphics Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="BindlessGraphicsSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/bindless-screenshot.jpg" alt="images/bindless-screenshot.jpg" width="180" />
+		</a>
+		
+		<p>This sample demonstrates the large performance increase in OpenGL that is made possible by &#39;Bindless Graphics&#39;.  These extensions allow applications to draw large numbers of objects with only a few setup calls, rather than a few calls per object, thus reducing the driver overhead necessary to render highly populated scenery.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="BlendedAASample.htm">
+		BlendedAA Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="BlendedAASample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/BlendedAA-screenshot.png" alt="images/BlendedAA-screenshot.png" width="180" />
+		</a>
+		
+		<p>This sample implements a two-pass additive blending anti-aliasing technique using Target-Independent Rasterization (TIR), which should give comparable results to MSAA with a reduced memory footprint.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="CascadedShadowMapping.htm">
+		Cascaded Shadow Mapping
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="CascadedShadowMapping.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/csm.png" alt="images/csm.png" width="180" />
+		</a>
+		
+		<p>This sample implements the cascaded shadow mapping technique using Viewport Multicast and Fast Geometry Shader.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="ConservativeRasterizationSample.htm">
+		Conservative Rasterization Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="ConservativeRasterizationSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/conservative-screenshot.jpg" alt="images/conservative-screenshot.jpg" width="180" />
+		</a>
+		
+		<p>This sample demonstrates the pixel-level effect of enabling the conservative rasterization feature supported in OpenGL.  It allows applications to shade every pixel whose area is touched by a fragment, rather than only those touching specific samples.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="CubemapRenderingSample.htm">
+		Cubemap Rendering Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="CubemapRenderingSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/cubemaprendering-screenshot.jpg" alt="images/cubemaprendering-screenshot.jpg" width="180" />
+		</a>
+		
+		<p>This sample demonstrates various cubemap rendering techniques, including ones that use the Multi-Projection Acceleration feature introduced in Maxwell GM20x.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="DeferredShadingMSAASample.htm">
+		Deferred Shading MSAA Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="DeferredShadingMSAASample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/deferredshadingmsaa-screenshot.png" alt="images/deferredshadingmsaa-screenshot.png" width="180" />
+		</a>
+		
+		<p>This sample demonstrates how to render anti-aliased geometry when using a deferred shading pipeline.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="MultiDrawIndirectSample.htm">
+		Multi-Draw Indirect Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="MultiDrawIndirectSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/multidrawindirect-screenshot.jpg" alt="images/multidrawindirect-screenshot.jpg" width="180" />
+		</a>
+		
+		<p>This sample demonstrates how to use extensions to OpenGL to offload the CPU in generating rendering work when you have a large number of objects in a scene.  The extensions and core features used are a subset of the features commonly known as &#39;AZDO&#39; (For Approaching Zero Driver Overhead)</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="NormalBlendedDecalSample.htm">
+		Normal Blended Decal Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="NormalBlendedDecalSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/normalblendeddecal-screenshot.jpg" alt="images/normalblendeddecal-screenshot.jpg" width="180" />
+		</a>
+		
+		<p>The Normal Blended Decal Sample demonstrates how to use the OpenGL PSI (Pixel Shader Interlock) feature to blend normals when drawing screen-space decals. This sample compares the performance of PSI with glMemoryBarrier.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="NVCommandListSample.htm">
+		NV Command List Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="NVCommandListSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/nvcommandlist-screenshot.png" alt="images/nvcommandlist-screenshot.png" width="180" />
+		</a>
+		
+		<p>This sample demonstrates the use of the NV_command_list extension. In this sample the NV_command_list is used to render a basic scene. Texturing is performed via ARB_bindless_texture.</p>
+	</div>
+	
+	<div class="row tocsubproj">
+		<h3>
+		<a href="WeightedBlendedOITSample.htm">
+		Weighted Blended OIT Sample
+		</a>
+		</h3>
+				
+		
+		<div class="subprojmetadata">
+			<b class="small">Category:</b>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Performance&nbsp;</span>
+			
+				<span class="btn btn-primary btn-xs subprojmetacat">&nbsp;Visuals&nbsp;</span>
+			
+		</div>
+		
+
+			
+		<a href="WeightedBlendedOITSample.htm">
+			<img class="pull-right padding-sm-left padding-sm-bottom subprojscreenthumb" src="images/weightedblendedoit-screenshot.jpg" alt="images/weightedblendedoit-screenshot.jpg" width="180" />
+		</a>
+		
+		<p>Weighted Blended OIT Sample demonstrates how plausible OIT (Order Independent Transparency) can be rendered in a single geometry pass without any depth sorting, as described in McGuire and Bavoil 2013. The idea is to use additive blending to compute a weighted average of the translucent colors with a weighting function that falls off as the linear depth increases. This sample compares the quality and performance of Weighted Blended OIT with Depth Peeling.</p>
+	</div>
+	
+	
+		
+</div>
+</div>
+
+</div> <!--content-->
+<!-- footer block-->
+<div id="footer" class="container">
+	<div class="seperator"></div>
+	<div class="seperator"></div>
+	<footer>
+		<div class="row">
+			<div class="text-center">&copy;2016 NVIDIA Corporation.</div>
+			<div class="seperator"></div>
+		</div>
+	</footer>
+</div> <!--footer-->
+
+</body>
+</html>
